@@ -3,7 +3,7 @@
 #
 FROM abiosoft/caddy:builder as builder
 
-ARG version="1.0.6"
+ARG version="1.0.1"
 ARG plugins="git,cache,hugo,expires,cors"
 
 # process wrapper
