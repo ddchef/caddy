@@ -1,10 +1,10 @@
 #
 # Builder
 #
-FROM ddchef/caddy:builder as builder
+FROM abiosoft/caddy:builder as builder
 
-ARG version="1.0.1"
-ARG plugins="git,cache,hugo,expires,cors,hook.service"
+ARG version="1.0.6"
+ARG plugins="git,cache,hugo,expires,cors"
 
 # process wrapper
 RUN go get -v github.com/abiosoft/parent
